@@ -7,7 +7,7 @@ from .forms import CityForm
 # Create your views here.
 
 def index(request):
-    appid = '086f7016c78ca1cc36164f22cc73d8f2'
+    appid = 'Your api key'
     url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=' + appid
 
     if(request.method == 'POST'):
